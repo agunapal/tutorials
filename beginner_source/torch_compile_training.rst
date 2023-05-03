@@ -3,17 +3,18 @@ Training a model with torch.compile()
 
 **Author**: `Ankith Gunapal <https://github.com/agunapal>`__
 
-Lets look at an example of how to train a model using `torch.compile` and measure the performance improvements we observe
+Lets look at an example of how to train a model using :python:`torch.compile` and measure the performance improvements we observe
 
 
 Model & DataSet
 ---------------
 
-We will train a ResNet model to classify cats and dogs
+We will train a :python:`ResNet` model to classify cats and dogs
 
-We use datatsets from `HuggingFace <https://huggingface.co/datasets/cats_vs_dogs>` to load the cats and dogs dataset
+We use datatsets from `HuggingFace <https://huggingface.co/datasets/cats_vs_dogs>`__ to load the cats and dogs dataset
 
-`pip install -r requirements.txt`
+.. code-block:: bash 
+    pip install -r requirements.txt`
 
 
 .. note::
